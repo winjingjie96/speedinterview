@@ -5,9 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "build": "postcss css/tailwind.css -o build/tailwind.css"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public/build",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
   "keywords": [],
   "author": "",
