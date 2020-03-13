@@ -7,5 +7,294 @@
 </head>
 <body>
     
+
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+
+    <div class="relative bg-black overflow-hidden">
+
+
+        <div x-data="{ open: false }" class="relative bg-black pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
+      <div class="bg-black pb-32">
+        <nav class="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
+            <div class="flex items-center flex-1">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="#">
+                  <img class="h-8 w-auto sm:h-10" src="https://www.hireplace.com/assets/svg/logo-white.svg" alt="" />
+                </a>
+                <div class="-mr-2 flex items-center md:hidden">
+                  <button @click="open = true" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="hidden md:block md:ml-10">
+                <a href="#" class="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Product</a>
+                <a href="#" class="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Features</a>
+                <a href="#" class="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Marketplace</a>
+                <a href="#" class="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out">Company</a>
+              </div>
+            </div>
+            <div class="hidden md:block text-right">
+              <span class="inline-flex rounded-md shadow-md">
+                <span class="inline-flex rounded-md shadow-xs">
+                  <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-pink-600 bg-white hover:bg-gray-50 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+                    Log in
+                  </a>
+                </span>
+              </span>
+            </div>
+          </nav>
+        <header class="py-10">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- <svg class="absolute  top-full left-full transform -translate-x-1/3 -translate-y-1/4 lg:translate-x-1/3 xl:-translate-y-1/2" width="404" height="404" fill="none" viewBox="0 0 404 404">
+                <defs>
+                  <pattern id="svg-pattern-squares-1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+                    <rect x="0" y="0" width="4" height="4" class="text-pink-800" fill="currentColor" />
+                  </pattern>
+                </defs>
+                <rect width="404" height="404" fill="url(#svg-pattern-squares-1)" />
+              </svg> -->
+
+            <h2 class="text-4xl tracking-tight font-bold text-gray-100 sm:leading-none sm:text-5xl lg:text-6xl xl:text-6xl leading-9 font-bold text-white">
+                Angular Zurich</h2>
+              
+           
+          </div>
+        </header>
+      </div>
+      <main class="-mt-32">
+        <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+          <!-- Replace with your content -->
+          <div class="bg-white shadow overflow-hidden sm:rounded-md">
+            <ul>
+              <li>
+                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+                  <div class="flex items-center px-4 py-4 sm:px-6">
+                    <div class="min-w-0 flex-1 flex items-center">
+                      <div class="flex-shrink-0">
+                        <img class="h-12 w-12 rounded-full" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=256&h=256" alt="" />
+                      </div>
+                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                        <div>
+                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Facebook </div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="truncate">ricardo.cooper@example.com</span>
+                          </div>
+                        </div>
+                        <div class="hidden md:block">
+                            <div>
+                                <!-- <div class="text-sm leading-5 text-gray-900">
+                                  Applied on
+                                  <time datetime="2020-01-07">January 7, 2020</time>
+                                </div> -->
+                                <div class="text-sm leading-5 flex items-center text-gray-900">
+                                  <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                  </svg>
+                                  Junior Developer
+                                </div>
+                                <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Senior Developer
+                                  </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="border-t border-gray-200">
+                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+                  <div class="flex items-center px-4 py-4 sm:px-6">
+                    <div class="min-w-0 flex-1 flex items-center">
+                      <div class="flex-shrink-0">
+                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/487-4874977_schneeflocke-clipart.png" alt="" />
+                      </div>
+                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                        <div>
+                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Amazon</div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="truncate">kristen.ramos@example.com</span>
+                          </div>
+                        </div>
+                        <div class="hidden md:block">
+                            <div>
+                                <!-- <div class="text-sm leading-5 text-gray-900">
+                                  Applied on
+                                  <time datetime="2020-01-07">January 7, 2020</time>
+                                </div> -->
+                                <div class="text-sm leading-5 flex items-center text-gray-900">
+                                  <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                  </svg>
+                                  Junior Developer
+                                </div>
+                                <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                    </svg>
+                                    Senior Developer
+                                  </div>
+                              </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="border-t border-gray-200">
+                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+                  <div class="flex items-center px-4 py-4 sm:px-6">
+                    <div class="min-w-0 flex-1 flex items-center">
+                      <div class="flex-shrink-0">
+                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/31-311969_spotify-music-app-earpod-spot-hear-musik-hren.png" alt="" />
+                      </div>
+                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                        <div>
+                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Spotify</div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="truncate">Spotify</span>
+                          </div>
+                        </div>
+                        <div class="hidden md:block">
+                          <div>
+                            <!-- <div class="text-sm leading-5 text-gray-900">
+                              Applied on
+                              <time datetime="2020-01-07">January 7, 2020</time>
+                            </div> -->
+                            <div class="text-sm leading-5 flex items-center text-gray-900">
+                              <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                              </svg>
+                              Junior Developer
+                            </div>
+                            <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                                <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                Senior Developer
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+
+
+              <li class="border-t border-gray-200">
+                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+                  <div class="flex items-center px-4 py-4 sm:px-6">
+                    <div class="min-w-0 flex-1 flex items-center">
+                      <div class="flex-shrink-0">
+                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/2-27387_michigan-non-profits-looking-to-google-to-fight.png" alt="" />
+                      </div>
+                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                        <div>
+                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Google</div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="truncate">Google</span>
+                          </div>
+                        </div>
+                        <div class="hidden md:block">
+                          <div>
+                            <!-- <div class="text-sm leading-5 text-gray-900">
+                              Applied on
+                              <time datetime="2020-01-07">January 7, 2020</time>
+                            </div> -->
+                            <div class="text-sm leading-5 flex items-center text-gray-900">
+                              <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                              </svg>
+                              Junior Developer
+                            </div>
+                            <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                                <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                Senior Developer
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </a>
+              </li>
+
+
+
+            </ul>
+          </div>
+          </div>
+          <!-- /End replace -->
+          <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+              Ready for 
+              <span class="text-pink-600">speed interviews?</span>
+              <br />
+              Download the app now.
+            </h2>
+            <div class="mt-8 flex justify-center">
+              <div class="inline-flex rounded-md shadow">
+                <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/223-2231228_google-play-store-logo-png.png"></a>
+            </div>
+            <div class="ml-3 inline-flex rounded-md shadow">
+                <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/7-77874_google-play-png.png"></a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+</div>
+
+<div class="bg-white">
+    
+  </div>
+
+
 </body>
 </html>
