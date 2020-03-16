@@ -2,12 +2,16 @@
   "homepage": "http://winjingjie96.github.io/speedinterview",
   "name": "speedinterview",
   "version": "1.0.0",
-  "description": "",
+  "description": "website for speedinterview",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/winjingjie96/speedinterview.git"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +24,6 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "gh": "^2.8.6",
-    "gh-pages": "^2.2.0",
-    "pages": "0.0.16"
+    "gh-pages": "^2.2.0"
   }
 }
