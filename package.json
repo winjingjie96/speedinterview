@@ -19,8 +19,6 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "gh": "^2.8.6",
-    "gh-pages": "^2.2.0",
-    "pages": "0.0.16"
+    "gh-pages": "^2.2.0"
   }
 }
