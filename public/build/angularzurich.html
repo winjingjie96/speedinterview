@@ -57,7 +57,7 @@
       </div>
       <main class="-mt-32">
         
-        <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8">
     
           <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
 
@@ -78,7 +78,7 @@
                   <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
                   </svg>
-                  Remote
+                  Zurich
                 </div>
                 <div class="mt-2 flex items-center text-sm leading-5 text-gray-300 sm:mr-6">
                   <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
@@ -91,16 +91,39 @@
                   <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
                   </svg>
-                  Closing on January 9, 2020
+                  March 24, 2020, 11:30AM - 1:30PM
                 </div>
+                <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:pr-15 sm:text-xl  lg:text-lg xl:text-xl" >
+                We will be hiring for Angular Developers in Zurich<br><br>
+Requirements:<br>
+Computer Science Degree <br><br>
+What to bring to this event: <br>
+Github Profile Link<br>
+Personal Projects<br><br> 
+About Angular Zurich: <br> We are a community of Angular Developers that do frequent meetups in Zurich. 
+ 
+
+
+</p>
               </div>
             </div>
             <div class="mt-5 flex lg:mt-0 lg:ml-4">
-              <div>
-                <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
- 
-                  <form class="mt-8 sm:flex">
-                    <input aria-label="Email address" type="email" required class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-xs" placeholder="Enter your email" />
+              
+        
+                <div class="w-full mx-auto lg:py-16">
+                  
+                  <form class="w-full mt-8 sm:flex">
+                   
+                    <input aria-label="Email address" type="email" required class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-lg" placeholder="Enter your email" />         
+
+
+                  </form>
+
+                  <form class="w-full mt-8 sm:flex">
+                   
+
+                    <input aria-label="Email address" type="email" required class="appearance-none w-full px-5 py-3 border border-gray-300 text-base leading-6 rounded-md text-gray-900 bg-white placeholder-gray-500 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out sm:max-w-xs" placeholder="Event Code (optional)" />
+
                     <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
                       <button class="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-pink-600 hover:bg--500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
                        Request Invite
@@ -108,279 +131,707 @@
                     </div>
                   </form>
                 </div>
-              </div>
+           
           
-              <span x-data="{ open: false }" class="ml-3 relative shadow-sm rounded-md sm:hidden">
-                <button @click="open = !open" type="button" class="inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-gray-700 hover:bg-gray-600 focus:outline-none focus:shadow-outline-gray focus:border-gray-800 transition duration-150 ease-in-out">
-                  More
-                  <svg class="-mr-1 ml-2 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                  </svg>
-                </button>
-          
-                <div x-show="open" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="origin-top-left absolute left-0 mt-2 -ml-1 w-48 rounded-md shadow-lg">
-                  <div class="py-1 rounded-md bg-white shadow-xs">
-                    <a href="#" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out">Edit</a>
-                    <a href="#" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out">View</a>
-                  </div>
-                </div>
-              </span>
             </div>
           </div>
           <!-- Replace with your content -->
 
 
-          <div class="bg-white mt-6 shadow overflow-hidden sm:rounded-md"> 
-            <div class="px-6 sm:hidden">
-              <select aria-label="Selected tab" class="mt-1 form-select block w-full pl-3 pr-10 py-2 text-base leading-6 border-gray-300 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 sm:text-sm sm:leading-5 transition ease-in-out duration-150">
-                <option>My Account</option>
-                <option>Company</option>
-                <option selected>Team Members</option>
-                <option>Billing</option>
-              </select>
-            </div>
-            <div class="px-6 hidden sm:block">
-              <div class="border-b border-gray-200">
+          <div class="bg-white mt-6 shadow sm:rounded-md"> 
+
+            <div class="px-6 sm:block overflow-x-auto border-b border-gray-200">
+              <div>
                 <nav class="-mb-px flex">
-                  <a href="#" class="whitespace-no-wrap py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
-                    My Account
-                  </a>
-                  <a href="#" class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
-                    Company
-                  </a>
-                  <a href="#" class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-indigo-500 font-medium text-sm leading-5 text-indigo-600 focus:outline-none focus:text-indigo-800 focus:border-indigo-700">
-                    Team Members
-                  </a>
-                  <a href="#" class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300">
-                    Billing
-                  </a>
+                  <button class="whitespace-no-wrap py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
+                  onclick="openCity(event, 'Amazon')" id="defaultOpen">
+                    Amazon
+                </button>
+
+                <button class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
+                onclick="openCity(event, 'Spotify')">
+                    Spotify
+              </button>
+
+              <button class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
+              onclick="openCity(event, 'Google')">
+                Google
+            </button>
+
+            <button class="whitespace-no-wrap ml-8 py-4 px-1 border-b-2 border-transparent font-medium text-sm leading-5 text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300"
+            onclick="openCity(event, 'Facebook')">
+              Facebook
+          </button>
+
+
                 </nav>
               </div>
             </div>
 
-
-
-            <ul>
-              <li>
-                <a href="forms.html" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-                  <div class="flex items-center px-4 py-4 sm:px-6">
-                    <div class="min-w-0 flex-1 flex items-center">
-                      <div class="flex-shrink-0">
-                        <img class="h-12 w-12 rounded-full" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=256&h=256" alt="" />
+  <!-- Tab content -->
+  <div id="Amazon" class="tabcontent">
+    <button class="accordion w-full">
+    <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+        <div class="flex items-center px-4 py-4 sm:px-6">
+          <div class="min-w-0 flex-1 flex items-center">
+            <div class="flex-shrink-0">
+              <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/487-4874977_schneeflocke-clipart.png" alt="" />
+            </div>
+            <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+              <div>
+                <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Junior Developer</div>
+ 
+              </div>
+              <div class="hidden md:block">
+                  <div>
+                      <!-- <div class="text-sm leading-5 text-gray-900">
+                        Applied on
+                        <time datetime="2020-01-07">January 7, 2020</time>
+                      </div> -->
+                      <div class="text-sm leading-5 flex items-center text-gray-900">
+                        <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Competitive Rates
                       </div>
-                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-                        <div>
-                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Facebook </div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
-                            </svg>
-                            <span class="truncate">ricardo.cooper@example.com</span>
-                          </div>
+                      <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                          </svg>
+                          Staff Welfare
                         </div>
-                        <div class="hidden md:block">
-                            <div>
-                                <!-- <div class="text-sm leading-5 text-gray-900">
-                                  Applied on
-                                  <time datetime="2020-01-07">January 7, 2020</time>
-                                </div> -->
-                                <div class="text-sm leading-5 flex items-center text-gray-900">
-                                  <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                  </svg>
-                                  Junior Developer
-                                </div>
-                                <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
-                                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                    </svg>
-                                    Senior Developer
-                                  </div>
-                              </div>
-                        </div>
-                      </div>
                     </div>
-                    <div>
-                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+    </div>
+    </button>
+    <div class="panel hidden">
+        <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+            <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+            We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+            
+            <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+            
+           <br> <br> 
+           <span class="text-pink-600 text-lg ">Responsibilities:</span>
+           
+           <br> <br>Designing and developing user interfaces using AngularJS best practices.
+           <br>Adapting interface for modern internet applications using the latest front-end technologies.
+           <br>Writing JavaScript, CSS, and HTML.
+           <br>Developing product analysis tasks.
+           <br>Making complex technical and design decisions for AngularJS projects.
+           <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+           <br>Conducting performance tests.
+           <br>Consulting with the design team.
+           <br>Ensuring high performance of applications and providing support.
+           <br>AngularJS Developer Requirements:
+           <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+           <br>Previous work experience as an AngularJS Developer.
+           <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+            <br>Experience using JavaScript building tools like Gulp or Grunt.
+            <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+            <br>Excellent project management skills.
+            <br>Proven experience implementing front-end and back-end JavaScript applications.
+            <br>Excellent communication skills.
+            <br>Critical thinker and good problem-solver.
+            </p><br>
+      </div>
+      <button class="accordion w-full">
+        <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+            <div class="flex items-center px-4 py-4 sm:px-6">
+              <div class="min-w-0 flex-1 flex items-center">
+                <div class="flex-shrink-0">
+                  <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/487-4874977_schneeflocke-clipart.png" alt="" />
+                </div>
+                <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                  <div>
+                    <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Senior Developer</div>
+     
                   </div>
-                </a>
-              </li>
-              <li class="border-t border-gray-200">
-                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-                  <div class="flex items-center px-4 py-4 sm:px-6">
-                    <div class="min-w-0 flex-1 flex items-center">
-                      <div class="flex-shrink-0">
-                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/487-4874977_schneeflocke-clipart.png" alt="" />
-                      </div>
-                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-                        <div>
-                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Amazon</div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
+                  <div class="hidden md:block">
+                      <div>
+                          <!-- <div class="text-sm leading-5 text-gray-900">
+                            Applied on
+                            <time datetime="2020-01-07">January 7, 2020</time>
+                          </div> -->
+                          <div class="text-sm leading-5 flex items-center text-gray-900">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                             </svg>
-                            <span class="truncate">kristen.ramos@example.com</span>
+                            Competitive Rates
                           </div>
-                        </div>
-                        <div class="hidden md:block">
-                            <div>
-                                <!-- <div class="text-sm leading-5 text-gray-900">
-                                  Applied on
-                                  <time datetime="2020-01-07">January 7, 2020</time>
-                                </div> -->
-                                <div class="text-sm leading-5 flex items-center text-gray-900">
-                                  <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                  </svg>
-                                  Junior Developer
-                                </div>
-                                <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
-                                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                    </svg>
-                                    Senior Developer
-                                  </div>
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div>
-                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
-                  </div>
-                </a>
-              </li>
-              <li class="border-t border-gray-200">
-                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-                  <div class="flex items-center px-4 py-4 sm:px-6">
-                    <div class="min-w-0 flex-1 flex items-center">
-                      <div class="flex-shrink-0">
-                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/31-311969_spotify-music-app-earpod-spot-hear-musik-hren.png" alt="" />
-                      </div>
-                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-                        <div>
-                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Spotify</div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
-                            </svg>
-                            <span class="truncate">Spotify</span>
-                          </div>
-                        </div>
-                        <div class="hidden md:block">
-                          <div>
-                            <!-- <div class="text-sm leading-5 text-gray-900">
-                              Applied on
-                              <time datetime="2020-01-07">January 7, 2020</time>
-                            </div> -->
-                            <div class="text-sm leading-5 flex items-center text-gray-900">
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
                               <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                               </svg>
-                              Junior Developer
+                              Staff Welfare
                             </div>
-                            <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
-                                <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                </svg>
-                                Senior Developer
-                              </div>
-                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div>
-                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
                   </div>
-                </a>
-              </li>
-
-
-
-
-              <li class="border-t border-gray-200">
-                <a href="#" class="block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
-                  <div class="flex items-center px-4 py-4 sm:px-6">
-                    <div class="min-w-0 flex-1 flex items-center">
-                      <div class="flex-shrink-0">
-                        <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/2-27387_michigan-non-profits-looking-to-google-to-fight.png" alt="" />
+                </div>
+              </div>
+              <div>
+                <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+            </div>
+        </div>
+        </button>
+        <div class="panel hidden">
+            <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+                <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+                We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+                
+                <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+                
+               <br> <br> 
+               <span class="text-pink-600 text-lg ">Responsibilities:</span>
+               
+               <br> <br>Designing and developing user interfaces using AngularJS best practices.
+               <br>Adapting interface for modern internet applications using the latest front-end technologies.
+               <br>Writing JavaScript, CSS, and HTML.
+               <br>Developing product analysis tasks.
+               <br>Making complex technical and design decisions for AngularJS projects.
+               <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+               <br>Conducting performance tests.
+               <br>Consulting with the design team.
+               <br>Ensuring high performance of applications and providing support.
+               <br>AngularJS Developer Requirements:
+               <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+               <br>Previous work experience as an AngularJS Developer.
+               <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+                <br>Experience using JavaScript building tools like Gulp or Grunt.
+                <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+                <br>Excellent project management skills.
+                <br>Proven experience implementing front-end and back-end JavaScript applications.
+                <br>Excellent communication skills.
+                <br>Critical thinker and good problem-solver.
+            </p><br>
+                
+          </div>
+  </div>
+  
+  <div id="Spotify" class="tabcontent">
+    <button class="accordion w-full">
+    <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+        <div class="flex items-center px-4 py-4 sm:px-6">
+          <div class="min-w-0 flex-1 flex items-center">
+            <div class="flex-shrink-0">
+              <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/31-311969_spotify-music-app-earpod-spot-hear-musik-hren.png" alt="" />
+            </div>
+            <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+              <div>
+                <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Junior Developer</div>
+ 
+              </div>
+              <div class="hidden md:block">
+                  <div>
+                      <!-- <div class="text-sm leading-5 text-gray-900">
+                        Applied on
+                        <time datetime="2020-01-07">January 7, 2020</time>
+                      </div> -->
+                      <div class="text-sm leading-5 flex items-center text-gray-900">
+                        <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Competitive Rates
                       </div>
-                      <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
-                        <div>
-                          <div class="text-sm leading-5 font-medium text-pink-600 truncate">Google</div>
-                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-500">
-                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                              <path fill-rule="evenodd" d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" clip-rule="evenodd"/>
-                            </svg>
-                            <span class="truncate">Google</span>
-                          </div>
+                      <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                          </svg>
+                          Staff Welfare
                         </div>
-                        <div class="hidden md:block">
-                          <div>
-                            <!-- <div class="text-sm leading-5 text-gray-900">
-                              Applied on
-                              <time datetime="2020-01-07">January 7, 2020</time>
-                            </div> -->
-                            <div class="text-sm leading-5 flex items-center text-gray-900">
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+    </div>
+    </button>
+    <div class="panel hidden">
+        <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+            <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+            We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+            
+            <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+            
+           <br> <br> 
+           <span class="text-pink-600 text-lg ">Responsibilities:</span>
+           
+           <br> <br>Designing and developing user interfaces using AngularJS best practices.
+           <br>Adapting interface for modern internet applications using the latest front-end technologies.
+           <br>Writing JavaScript, CSS, and HTML.
+           <br>Developing product analysis tasks.
+           <br>Making complex technical and design decisions for AngularJS projects.
+           <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+           <br>Conducting performance tests.
+           <br>Consulting with the design team.
+           <br>Ensuring high performance of applications and providing support.
+           <br>AngularJS Developer Requirements:
+           <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+           <br>Previous work experience as an AngularJS Developer.
+           <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+            <br>Experience using JavaScript building tools like Gulp or Grunt.
+            <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+            <br>Excellent project management skills.
+            <br>Proven experience implementing front-end and back-end JavaScript applications.
+            <br>Excellent communication skills.
+            <br>Critical thinker and good problem-solver.
+            </p><br>
+      </div>
+      <button class="accordion w-full">
+        <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+            <div class="flex items-center px-4 py-4 sm:px-6">
+              <div class="min-w-0 flex-1 flex items-center">
+                <div class="flex-shrink-0">
+                  <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/31-311969_spotify-music-app-earpod-spot-hear-musik-hren.png" alt="" />
+                </div>
+                <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                  <div>
+                    <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Senior Developer</div>
+     
+                  </div>
+                  <div class="hidden md:block">
+                      <div>
+                          <!-- <div class="text-sm leading-5 text-gray-900">
+                            Applied on
+                            <time datetime="2020-01-07">January 7, 2020</time>
+                          </div> -->
+                          <div class="text-sm leading-5 flex items-center text-gray-900">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Competitive Rates
+                          </div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
                               <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
                                 <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                               </svg>
-                              Junior Developer
+                              Staff Welfare
                             </div>
-                            <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
-                                <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
-                                </svg>
-                                Senior Developer
-                              </div>
-                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <div>
-                      <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
                   </div>
-                </a>
-              </li>
+                </div>
+              </div>
+              <div>
+                <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+            </div>
+        </div>
+        </button>
+        <div class="panel hidden">
+            <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+                <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+                We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+                
+                <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+                
+               <br> <br> 
+               <span class="text-pink-600 text-lg ">Responsibilities:</span>
+               
+               <br> <br>Designing and developing user interfaces using AngularJS best practices.
+               <br>Adapting interface for modern internet applications using the latest front-end technologies.
+               <br>Writing JavaScript, CSS, and HTML.
+               <br>Developing product analysis tasks.
+               <br>Making complex technical and design decisions for AngularJS projects.
+               <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+               <br>Conducting performance tests.
+               <br>Consulting with the design team.
+               <br>Ensuring high performance of applications and providing support.
+               <br>AngularJS Developer Requirements:
+               <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+               <br>Previous work experience as an AngularJS Developer.
+               <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+                <br>Experience using JavaScript building tools like Gulp or Grunt.
+                <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+                <br>Excellent project management skills.
+                <br>Proven experience implementing front-end and back-end JavaScript applications.
+                <br>Excellent communication skills.
+                <br>Critical thinker and good problem-solver.
+                </p><br>
+          </div>
+  </div>
+  
+  <div id="Google" class="tabcontent">
+    <button class="accordion w-full">
+    <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+        <div class="flex items-center px-4 py-4 sm:px-6">
+          <div class="min-w-0 flex-1 flex items-center">
+            <div class="flex-shrink-0">
+              <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/2-27387_michigan-non-profits-looking-to-google-to-fight.png" alt="" />
+            </div>
+            <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+              <div>
+                <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Junior Developer</div>
+ 
+              </div>
+              <div class="hidden md:block">
+                  <div>
+                      <!-- <div class="text-sm leading-5 text-gray-900">
+                        Applied on
+                        <time datetime="2020-01-07">January 7, 2020</time>
+                      </div> -->
+                      <div class="text-sm leading-5 flex items-center text-gray-900">
+                        <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Competitive Rates
+                      </div>
+                      <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                          </svg>
+                          Staff Welfare
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+    </div>
+    </button>
+    <div class="panel hidden">
+        <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+            <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+            We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+            
+            <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+            
+           <br> <br> 
+           <span class="text-pink-600 text-lg ">Responsibilities:</span>
+           
+           <br> <br>Designing and developing user interfaces using AngularJS best practices.
+           <br>Adapting interface for modern internet applications using the latest front-end technologies.
+           <br>Writing JavaScript, CSS, and HTML.
+           <br>Developing product analysis tasks.
+           <br>Making complex technical and design decisions for AngularJS projects.
+           <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+           <br>Conducting performance tests.
+           <br>Consulting with the design team.
+           <br>Ensuring high performance of applications and providing support.
+           <br>AngularJS Developer Requirements:
+           <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+           <br>Previous work experience as an AngularJS Developer.
+           <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+            <br>Experience using JavaScript building tools like Gulp or Grunt.
+            <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+            <br>Excellent project management skills.
+            <br>Proven experience implementing front-end and back-end JavaScript applications.
+            <br>Excellent communication skills.
+            <br>Critical thinker and good problem-solver.
+            </p><br>
+      </div>
+      <button class="accordion w-full">
+        <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+            <div class="flex items-center px-4 py-4 sm:px-6">
+              <div class="min-w-0 flex-1 flex items-center">
+                <div class="flex-shrink-0">
+                  <img class="h-12 w-12 rounded-full" src="https://www.pinclipart.com/picdir/big/2-27387_michigan-non-profits-looking-to-google-to-fight.png" alt="" />
+                </div>
+                <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                  <div>
+                    <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Senior Developer</div>
+     
+                  </div>
+                  <div class="hidden md:block">
+                      <div>
+                          <!-- <div class="text-sm leading-5 text-gray-900">
+                            Applied on
+                            <time datetime="2020-01-07">January 7, 2020</time>
+                          </div> -->
+                          <div class="text-sm leading-5 flex items-center text-gray-900">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Competitive Rates
+                          </div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                              <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                              </svg>
+                              Staff Welfare
+                            </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+            </div>
+        </div>
+        </button>
+        <div class="panel hidden">
+            <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+                <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+                We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+                
+                <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+                
+               <br> <br> 
+               <span class="text-pink-600 text-lg ">Responsibilities:</span>
+               
+               <br> <br>Designing and developing user interfaces using AngularJS best practices.
+               <br>Adapting interface for modern internet applications using the latest front-end technologies.
+               <br>Writing JavaScript, CSS, and HTML.
+               <br>Developing product analysis tasks.
+               <br>Making complex technical and design decisions for AngularJS projects.
+               <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+               <br>Conducting performance tests.
+               <br>Consulting with the design team.
+               <br>Ensuring high performance of applications and providing support.
+               <br>AngularJS Developer Requirements:
+               <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+               <br>Previous work experience as an AngularJS Developer.
+               <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+                <br>Experience using JavaScript building tools like Gulp or Grunt.
+                <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+                <br>Excellent project management skills.
+                <br>Proven experience implementing front-end and back-end JavaScript applications.
+                <br>Excellent communication skills.
+                <br>Critical thinker and good problem-solver.
+                </p><br>
+          </div>
+  </div>
 
-
-
-            </ul>
+  <div id="Facebook" class="tabcontent">
+    <button class="accordion w-full">
+    <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+        <div class="flex items-center px-4 py-4 sm:px-6">
+          <div class="min-w-0 flex-1 flex items-center">
+            <div class="flex-shrink-0">
+              <img class="h-12 w-12 rounded-full" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=256&h=256" alt="" />
+            </div>
+            <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+              <div>
+                <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Junior Developer</div>
+ 
+              </div>
+              <div class="hidden md:block">
+                  <div>
+                      <!-- <div class="text-sm leading-5 text-gray-900">
+                        Applied on
+                        <time datetime="2020-01-07">January 7, 2020</time>
+                      </div> -->
+                      <div class="text-sm leading-5 flex items-center text-gray-900">
+                        <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        Competitive Rates
+                      </div>
+                      <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                          <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                          </svg>
+                          Staff Welfare
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+        </div>
+    </div>
+    </button>
+    <div class="panel hidden">
+        <div>
+            <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+                <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+                We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+                
+                <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+                
+               <br> <br> 
+               <span class="text-pink-600 text-lg ">Responsibilities:</span>
+               
+               <br> <br>Designing and developing user interfaces using AngularJS best practices.
+               <br>Adapting interface for modern internet applications using the latest front-end technologies.
+               <br>Writing JavaScript, CSS, and HTML.
+               <br>Developing product analysis tasks.
+               <br>Making complex technical and design decisions for AngularJS projects.
+               <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+               <br>Conducting performance tests.
+               <br>Consulting with the design team.
+               <br>Ensuring high performance of applications and providing support.
+               <br>AngularJS Developer Requirements:
+               <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+               <br>Previous work experience as an AngularJS Developer.
+               <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+                <br>Experience using JavaScript building tools like Gulp or Grunt.
+                <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+                <br>Excellent project management skills.
+                <br>Proven experience implementing front-end and back-end JavaScript applications.
+                <br>Excellent communication skills.
+                <br>Critical thinker and good problem-solver.
+                </p><br>
+        </div>
+      </div>
+      <button class="accordion w-full">
+        <div class="max-w-7xl block hover:bg-gray-50 focus:outline-none focus:bg-gray-50 transition duration-150 ease-in-out">
+            <div class="flex items-center px-4 py-4 sm:px-6">
+              <div class="min-w-0 flex-1 flex items-center">
+                <div class="flex-shrink-0">
+                  <img class="h-12 w-12 rounded-full" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=256&h=256" alt="" />
+                </div>
+                <div class="min-w-0 flex-1 px-4 md:grid md:grid-cols-2 md:gap-4">
+                  <div>
+                    <div class="mt-2 flex items-center text-sm font-medium text-pink-600">Angular Senior Developer</div>
+     
+                  </div>
+                  <div class="hidden md:block">
+                      <div>
+                          <!-- <div class="text-sm leading-5 text-gray-900">
+                            Applied on
+                            <time datetime="2020-01-07">January 7, 2020</time>
+                          </div> -->
+                          <div class="text-sm leading-5 flex items-center text-gray-900">
+                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            Competitive Rates
+                          </div>
+                          <div class="mt-2 flex items-center text-sm leading-5 text-gray-900">
+                              <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                              </svg>
+                              Staff Welfare
+                            </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <svg class="h-5 w-5 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                </svg>
+              </div>
+            </div>
+        </div>
+        </button>
+        <div class="panel hidden">
+            <p class="mt-3 px-6 text-base text-gray-800 sm:mt-5 sm:px-16 sm:text-xl md:px-16 lg:text-lg xl:text-xl" >
+                <span class="text-pink-600 text-lg "> Job Description: </span><br><br>
+                We are looking to hire an entry level AngularJS Developer to join our dynamic team. <br><br>As a Junior Developer, you will be responsible for creating a top-level coding-base using Angular best practices. Your role will require you to implement an exciting and streamlined user experience in the form of a Java-based desktop and mobile web-app.
+                
+                <br><br>To ensure success as an AngularJS Developer, you should have extensive knowledge of theoretical software engineering, be proficient in JavaScript, HTML, and CSS, and have excellent project management skills. Ultimately, a top-class AngularJS Developer can design and build a streamlined application to company specifications that perfectly meet the needs of the user.
+                
+               <br> <br> 
+               <span class="text-pink-600 text-lg ">Responsibilities:</span>
+               
+               <br> <br>Designing and developing user interfaces using AngularJS best practices.
+               <br>Adapting interface for modern internet applications using the latest front-end technologies.
+               <br>Writing JavaScript, CSS, and HTML.
+               <br>Developing product analysis tasks.
+               <br>Making complex technical and design decisions for AngularJS projects.
+               <br>Developing application codes and unit tests in AngularJS, Java Technologies, and Rest Web Services.
+               <br>Conducting performance tests.
+               <br>Consulting with the design team.
+               <br>Ensuring high performance of applications and providing support.
+               <br>AngularJS Developer Requirements:
+               <br>Bachelor’s Degree in Computer Science, Computer Engineering or similar.
+               <br>Previous work experience as an AngularJS Developer.
+               <br>Proficient in CSS, HTML, and writing cross-browser compatible code.
+                <br>Experience using JavaScript building tools like Gulp or Grunt.
+                <br> Knowledge of JavaScript MV-VM/MVC frameworks including AngularJS.
+                <br>Excellent project management skills.
+                <br>Proven experience implementing front-end and back-end JavaScript applications.
+                <br>Excellent communication skills.
+                <br>Critical thinker and good problem-solver.
+                </p><br>
+          </div>
+  </div>
           </div>
           </div>
           <!-- /End replace -->
-          <div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-            <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
-              Ready for 
-              <span class="text-pink-600">speed interviews?</span>
-              <br />
-              Download the app now.
-            </h2>
-            <div class="mt-8 flex justify-center">
-              <div class="inline-flex rounded-md shadow">
-                <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/223-2231228_google-play-store-logo-png.png"></a>
-            </div>
-            <div class="ml-3 inline-flex rounded-md shadow">
-                <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/7-77874_google-play-png.png"></a>
-            </div>
-            </div>
-          </div>
+
+<!-- 
+CTA -->
+<div class="max-w-screen-xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <h2 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-100 sm:text-4xl sm:leading-10">
+      Ready for 
+      <span class="text-pink-600">speed interviews?</span>
+      <br />
+      Download the app now.
+    </h2>
+    <div class="mt-8 flex justify-center">
+      <div class="inline-flex rounded-md shadow">
+        <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/223-2231228_google-play-store-logo-png.png"></a>
+    </div>
+    <div class="ml-3 inline-flex rounded-md shadow">
+        <a href="#"><img class = "h-12" src="https://www.seekpng.com/png/full/7-77874_google-play-png.png"></a>
+    </div>
+    </div>
+  </div>
+
+
+
+
         </div>
       </main>
     </div>
 </div>
 
+
+<script>
+
+  function openCity(evt, cityName) {
+
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  document.getElementById("defaultOpen").click();
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+  </script>
 
 </body>
 </html>
